@@ -40,3 +40,6 @@ mkdir build
 cd build
 cmake .. -DGMX_GPU=CUDA -DCUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda
 make
+make check
+sudo make install
+source /usr/local/gromacs/bin/GMXRC	
